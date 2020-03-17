@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renato Melo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- link: https://renatoam.github.io/ -->
+
+    <main class="main" id="main">
+
+      <header class="main__header" id="header">
+        <h1 class="main__title">
+          <span>Renato</span>
+          <img src="cel.svg" alt="logo" />
+          <span>Melo</span>
+        </h1>
+        <h2 class="main__subtitle">Front-End Developer</h2>
+      </header>
+
+      <article class="main__content" id="mainContent">
+
+        <nav class="menu" id="menu">
+          <ul class="menu__wrapper">
+            <li class="menu__item">
+              <a href="#">
+                <img src="exempĺo.jpg" alt="Perfil" class="menu__image" />
+                <p class="menu__label">Lorem</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#">
+                <img src="exempĺo.jpg" alt="Perfil" class="menu__image" />
+                <p class="menu__label">Lorem</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#">
+                <img src="exempĺo.jpg" alt="Perfil" class="menu__image" />
+                <p class="menu__label">Lorem</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#">
+                <img src="exempĺo.jpg" alt="Perfil" class="menu__image" />
+                <p class="menu__label">Lorem</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#">
+                <img src="exempĺo.jpg" alt="Perfil" class="menu__image" />
+                <p class="menu__label">Lorem</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Cada conteúdo será exibido em tela cheia e vão transitando com scroll -->
+        <article class="content" id="content">
+
+          <!-- Primeiro, vou exibir um resumo de quem eu sou, uma apresentação. -->
+          <section class="intro" id="intro">
+            <h2 class="intro__title">Um pouco de quem eu sou e meus objetivos</h2>
+            <p class="intro__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in consequatur nihil aperiam sapiente odit quod est repellendus impedit, aliquam fugit mollitia repudiandae tempore voluptatibus voluptatem perferendis molestiae eaque rerum.</p>
+          </section>
+
+          <!-- Colocar uma animação nos círculos, indicando que precisa clicar para expandir a experiência -->
+          <section class="timeline" id="timeline">
+            <section class="timeline__wrapper">
+              <section class="timeline__item" data-exp="1">
+                <span class="timeline__year">2016</span>
+                <span class="timeline__circle" data-exp="1">+</span>
+                <h3 class="timeline__role">Developer Front-End</h3>
+                <span class="timeline__company">Carrefour Brasil</span>
+              </section>
+              <section class="timeline__item" data-exp="1">
+                <span class="timeline__year">2016</span>
+                <span class="timeline__circle" data-exp="1">+</span>
+                <h3 class="timeline__role">Developer Front-End</h3>
+                <span class="timeline__company">Carrefour Brasil</span>
+              </section>
+              <section class="timeline__item" data-exp="1">
+                <span class="timeline__year">2016</span>
+                <span class="timeline__circle" data-exp="1">+</span>
+                <h3 class="timeline__role">Developer Front-End</h3>
+                <span class="timeline__company">Carrefour Brasil</span>
+              </section>
+              <section class="timeline__item" data-exp="1">
+                <span class="timeline__year">2016</span>
+                <span class="timeline__circle" data-exp="1">+</span>
+                <h3 class="timeline__role">Developer Front-End</h3>
+                <span class="timeline__company">Carrefour Brasil</span>
+              </section>
+            </section>
+          </section>
+
+          <!-- Quando o usuário clicar em uma das bolinhas, irá se abrir um modal com a descrição da experiência selecionada. Esse modal será um carrossel estiloso, com a experiência anterior e a posterior, usando como referência os data-attributes. Além disso, nos botões de mudar o slide (next e prev), serão exibidos uma prévia (alguma info) da experiência anterior ou posterior. -->
+          <section class="experience" id="experience">
+            <div class="experience__overlay"></div>
+            <div class="experience__close">X</div>
+            <section class="experience__wrapper">
+              <section class="experience__item" data-exp="1">
+                <figure class="experience__image">
+                  <img src="logo.png" alt="Nome da empresa" />
+                </figure>
+                <h3 class="experience__company"></h3>
+                <section class="experience__activities"></section>
+                <section class="new-skills"></section>
+              </section>
+              <section class="experience__item" data-exp="1">
+                <figure class="experience__image">
+                  <img src="logo.png" alt="Nome da empresa" />
+                </figure>
+                <h3 class="experience__company"></h3>
+                <section class="experience__activities"></section>
+                <section class="new-skills"></section>
+              </section>
+              <section class="experience__item" data-exp="1">
+                <figure class="experience__image">
+                  <img src="logo.png" alt="Nome da empresa" />
+                </figure>
+                <h3 class="experience__company"></h3>
+                <section class="experience__activities"></section>
+                <section class="new-skills"></section>
+              </section>
+              <section class="experience__item" data-exp="1">
+                <figure class="experience__image">
+                  <img src="logo.png" alt="Nome da empresa" />
+                </figure>
+                <h3 class="experience__company"></h3>
+                <section class="experience__activities"></section>
+                <section class="new-skills"></section>
+              </section>
+            </section>
+          </section>
+
+          <section class="education" id="education">
+
+            <aside class="education__formation">
+              <section class="education__timeline">
+                <section class="education__date">
+                  <section class="education__year">
+                    <p>2009</p>
+                    <p>2012</p>
+                  </section>
+                  <section class="education__year">
+                    <p>2009</p>
+                  </section>
+                  <section class="education__year">
+                    <p>2009</p>
+                    <p>2012</p>
+                  </section>
+                  <section class="education__year">
+                    <p>2009</p>
+                  </section>
+                </section>
+                <section class="education__info">
+                  <section class="education__item">
+                    <h3 class="education__title">Gerenciamento de Banco de Dados</h3>
+                    <h4 class="education__institute">Universidade Nove de Julho</h4>
+                    <p class="education__type">Pós-graduação</p>
+                  </section>
+                  <section class="education__item">
+                    <h3 class="education__title">Gerenciamento de Banco de Dados</h3>
+                    <h4 class="education__institute">Universidade Nove de Julho</h4>
+                    <p class="education__type">Pós-graduação</p>
+                  </section>
+                  <section class="education__item">
+                    <h3 class="education__title">Gerenciamento de Banco de Dados</h3>
+                    <h4 class="education__institute">Universidade Nove de Julho</h4>
+                    <p class="education__type">Pós-graduação</p>
+                  </section>
+                  <section class="education__item">
+                    <h3 class="education__title">Gerenciamento de Banco de Dados</h3>
+                    <h4 class="education__institute">Universidade Nove de Julho</h4>
+                    <p class="education__type">Pós-graduação</p>
+                  </section>
+                </section>
+              </section>
+            </aside>
+
+            <!-- Serão exibidos diversos cards com progress bar animadas, que irão se animar no scroll on da tela. Usar a biblioteca que tem nos favoritos. A barra de progresso serve pra mostrar o status de conclusão de cada curso. -->
+            <section class="education__courses">
+              <section class="education__wrapper education__wrapper--primary">
+                <section class="education__row">
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="education__row">
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Go Stack 6.0 - Bootcamp Rocketseat</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+              <!-- Inserir uma linha de estilo aqui no meio -->
+              <section class="education__wrapper education__wrapper--secondary">
+                <section class="education__row">
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                </section>
+                <section class="education__row">
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                  <section class="education__item">
+                    <figure class="education__image">
+                      <img src="curso.svg" alt="Nome do curso" />
+                    </figure>
+                    <h3 class="education__name">Oracle 11g - OCA Certificate</h3>
+                    <div class="education__progress"></div>
+                    <section class="education__hover">
+                      <p class="education__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat minus eum, enim velit sequi qui, aliquid officia iure provident illo voluptates, libero aperiam sit saepe magnam hic tempore asperiores?</p>
+                      <p class="education__topics">Javascript, React, Webpack, Node, GraphQL, Redux, Router, Orientação à Objetos</p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+            </section>
+
+          </section>
+
+          <!-- As skills serão mensuradas com relação ao meu tempo de experiência como dev, em que ponto da carreira eu comecei a praticar, o quanto pratiquei e o quanto me desenvolvi. Definir os critérios de forma correta e colocar uma explicação pro usuário. -->
+
+          <!-- Serão três grupos de skills: dev, design e outros. Dev terá mais subdivisões: front, back, env (git, webpack, npm, etc.), concepts (design patterns, paradigmas, solid, etc.) -->
+
+          <!-- Deixar as categorias divididas em cards. Ao passar o mouse, exibe alguma informação que induza o usuário a clicar no card e abrir um modal com as skills em forma circular, com a porcentagem e o logo. -->
+          <section class="skills" id="skills">
+            <section class="skills__wrapper">
+              <section class="skills__group skills__group--development">
+                <section class="skills__subgroup skills__subgroup--front"></section>
+                <section class="skills__subgroup skills__subgroup--back"></section>
+                <section class="skills__subgroup skills__subgroup--env"></section>
+                <section class="skills__subgroup skills__subgroup--concepts"></section>
+              </section>
+              <section class="skills__group skills__group--design">
+                <section class="skills__subgroup skills__subgroup--teory"></section>
+                <section class="skills__subgroup skills__subgroup--tools"></section>
+              </section>
+              <section class="skills__group skills__group--others">
+                <section class="skills__subgroup skills__subgroup--db"></section>
+                <section class="skills__subgroup skills__subgroup--cms"></section>
+              </section>
+            </section>
+          </section>
+
+          <!-- Colocar bottoms com ícones svg que representam os hobbies. Colocar links dos artigos de cada hobby e links dos sites que eu vou criar. -->
+          <section class="hobbies" id="hobbies">
+            <section class="hobbies__row">
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+            </section>
+            <section class="hobbies__row">
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+              <figure class="hobbies__item">
+                <a href="#">
+                  <img src="hobby.svg" alt="hobby" />
+                </a>
+              </figure>
+            </section>
+          </section>
+
+        </article>
+
+      </article>
+
+    </main>
+
+  </body>
+</html>
