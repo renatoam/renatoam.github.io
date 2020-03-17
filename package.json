@@ -1,0 +1,40 @@
+{
+  "name": "renatoam.github.io",
+  "version": "1.0.0",
+  "description": "Personal website as a portfolio and curriculum vitae",
+  "main": "index.js",
+  "repository": "https://github.com/renatoam/renatoam.github.io.git",
+  "author": "Renato Melo <renatoalves92@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@linthtml/linthtml": "^0.3.2",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "husky": "^4.2.3",
+    "stylelint": "^13.2.1",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-high-performance-animation": "^1.5.0",
+    "stylelint-order": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

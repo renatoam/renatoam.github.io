@@ -1,0 +1,8 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  "plugins": ["stylelint-high-performance-animation", "stylelint-order"],
+  "rules": {
+    "plugin/no-low-performance-animation-properties": true,
+		"order/properties-alphabetical-order": true
+  }
+}

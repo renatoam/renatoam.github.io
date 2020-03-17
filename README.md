@@ -1,15 +1,27 @@
-# renatoam.github.io
-Site pessoal para testar 
+# Site pessoal
 
-A Pen created at CodePen.io. You can find this one at http://codepen.io/lbebber/pen/LELBEo.
+## Primeira etapa: Criação da estrutura
 
- Gooey menu with CSS and SVG filters. Version 1
+Criei a estrutura em HTML do template. Falta finalizar a a estrutura de alguns componentes. O ideal é finalizar o layout antes, só pra não ter refação. 
 
+## Segunda etapa: Configuração do ambiente
 
- Copyright (c) 2015 by Lucas Bebber (http://codepen.io/lbebber/pen/LELBEo)
+Configurei a maior parte das necessidades, como stylint, eslint, commitlint, .gitignore e uma estrutura de pastas provisórias.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Terceira etapa: Configuração do Webpack
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Quarta etapa: Finalizar layout e terminar estrutura dos componentes
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Quinta etapa: Estilizar
+
+## Sexta etapa: Configurar o React no projeto
+
+## Sétima etapa: Criar banco de dados com as informações
+
+## Oitava etapa: Criar API para consumo dos dados
+
+## Nona etapa: Criar todos os componentes com React
+
+## Décima etapa: Fazer deploy
+
+## Final: Atualizar Readme.md

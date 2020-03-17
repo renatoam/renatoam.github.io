@@ -1,0 +1,45 @@
+Arguments: 
+  /home/renato/.nvm/versions/node/v10.17.0/bin/node /usr/share/yarn/bin/yarn.js add linthtml -D
+
+PATH: 
+  /home/renato/.nvm/versions/node/v10.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/linthtml: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66975:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140727:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141699:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1143:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "renatoam.github.io",
+    "version": "1.0.0",
+    "description": "Personal website as a portfolio and curriculum vitae",
+    "main": "index.js",
+    "repository": "https://github.com/renatoam/renatoam.github.io.git",
+    "author": "Renato Melo <renatoalves92@gmail.com>",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
