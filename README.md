@@ -1,27 +1,9 @@
-# Site pessoal
+# Projeto Refactoring
+O projeto Refactoring consiste em passar por todos os meus repositórios antigos e refatorar o código existente e finalizar os projetos inacabados.
 
-## Primeira etapa: Criação da estrutura
+A ideia também é manter a versão antiga em outra branch, assim posso fazer comparações entre eles.
 
-Criei a estrutura em HTML do template. Falta finalizar a a estrutura de alguns componentes. O ideal é finalizar o layout antes, só pra não ter refação. 
+Disclaimer: esse é o projeto hospedado na Netlify. É a base pro projetinho de pokémon que estou fazendo atualmente. Fazer o merge aqui quando acabar.
 
-## Segunda etapa: Configuração do ambiente
-
-Configurei a maior parte das necessidades, como stylint, eslint, commitlint, .gitignore e uma estrutura de pastas provisórias.
-
-## Terceira etapa: Configuração do Webpack
-
-## Quarta etapa: Finalizar layout e terminar estrutura dos componentes
-
-## Quinta etapa: Estilizar
-
-## Sexta etapa: Configurar o React no projeto
-
-## Sétima etapa: Criar banco de dados com as informações
-
-## Oitava etapa: Criar API para consumo dos dados
-
-## Nona etapa: Criar todos os componentes com React
-
-## Décima etapa: Fazer deploy
-
-## Final: Atualizar Readme.md
+## 9. Pokémon (sim, mais um)
+Projeto pra treinamento de diversas tecnologias. Consiste de algumas telas principais, como escolha de pokémon inicial, detalhes dos pokémons da equipe, listagem de pokémons e uma home básica.
