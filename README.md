@@ -3,7 +3,7 @@ O projeto Refactoring consiste em passar por todos os meus repositórios antigos
 
 A ideia também é manter a versão antiga em outra branch, assim posso fazer comparações entre eles.
 
-Disclaimer: esse é o projeto hospedado na Netlify. É a base pro projetinho de pokémon que estou fazendo atualmente. Fazer o merge aqui quando acabar.
+Disclaimer: esse era pra ser um projeto de portfolio pra testar o Github Pages.
 
-## 9. Pokémon (sim, mais um)
-Projeto pra treinamento de diversas tecnologias. Consiste de algumas telas principais, como escolha de pokémon inicial, detalhes dos pokémons da equipe, listagem de pokémons e uma home básica.
+## 15. Github Pages
+Criar um layout feito por um dos aprendizes de UX ou dos aprendizes de front, com o Frontend Mentor.
