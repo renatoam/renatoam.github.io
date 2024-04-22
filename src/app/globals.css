@@ -2,32 +2,102 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --crimson-1: 340, 100%, 99%;
+    --crimson-2: 343, 78%, 98%;
+    --crimson-3: 341, 100%, 96%;
+    --crimson-4: 341, 94%, 93%;
+    --crimson-5: 340, 81%, 89%;
+    --crimson-6: 338, 69%, 85%;
+    --crimson-7: 338, 60%, 80%;
+    --crimson-8: 336, 55%, 73%;
+    --crimson-9: 336, 80%, 58%;
+    --crimson-10: 336, 73%, 54%;
+    --crimson-11: 336, 75%, 45%;
+    --crimson-12: 332, 63%, 24%;
+
+    --background: var(--crimson-1);
+    --foreground: var(--crimson-12);
+
+    --card: var(--crimson-1);
+    --card-foreground: var(--crimson-12);
+
+    --popover: var(--crimson-1);
+    --popover-foreground: var(--crimson-2);
+
+    --primary: var(--crimson-9);
+    --primary-foreground: var(--crimson-12);
+
+    --secondary: var(--crimson-10);
+    --secondary-foreground: var(--crimson-9);
+
+    --muted: var(--crimson-10);
+    --muted-foreground: var(--crimson-9);
+
+    --accent: var(--crimson-10);
+    --accent-foreground: var(--crimson-9);
+
+    --destructive: var(--crimson-3);
+    --destructive-foreground: var(--crimson-10);
+
+    --border: var(--crimson-7);
+    --input: var(--crimson-6);
+    --ring: var(--crimson-8);
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --crimson-1: 338, 19%, 8%;
+    --crimson-2: 337, 25%, 10%;
+    --crimson-3: 333, 45%, 15%;
+    --crimson-4: 331, 62%, 19%;
+    --crimson-5: 331, 59%, 23%;
+    --crimson-6: 333, 49%, 29%;
+    --crimson-7: 335, 45%, 36%;
+    --crimson-8: 336, 45%, 48%;
+    --crimson-9: 336, 80%, 58%;
+    --crimson-10: 338, 82%, 63%;
+    --crimson-11: 345, 100%, 79%;
+    --crimson-12: 330, 91%, 91%;
+
+    --background: var(--crimson-1);
+    --foreground: var(--crimson-12);
+
+    --card: var(--crimson-1);
+    --card-foreground: var(--crimson-12);
+
+    --popover: var(--crimson-1);
+    --popover-foreground: var(--crimson-2);
+
+    --primary: var(--crimson-9);
+    --primary-foreground: var(--crimson-12);
+
+    --secondary: var(--crimson-10);
+    --secondary-foreground: var(--crimson-9);
+
+    --muted: var(--crimson-10);
+    --muted-foreground: var(--crimson-9);
+
+    --accent: var(--crimson-10);
+    --accent-foreground: var(--crimson-9);
+
+    --destructive: var(--crimson-3);
+    --destructive-foreground: var(--crimson-10);
+
+    --border: var(--crimson-7);
+    --input: var(--crimson-6);
+    --ring: var(--crimson-8);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@layer base {
+  * {
+    @apply border-border;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  body {
+    @apply bg-background text-foreground;
   }
 }
